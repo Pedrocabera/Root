@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto'
+	rel='stylesheet' type='text/css'>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet"
+	th:href="@{/panel/css/materialize.min.css}"
+	href="css/materialize.min.css" media="screen,projection" />
+
+<link type="text/css" rel="stylesheet" th:href="@{panel/css/main.css}"
+	href="css/main.css" media="screen,projection" />
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Vestibular Agendado</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<form method="POST" th:action="@{/session/login}">
+		<div class="section no-pad-bot" id="index-banner">
+			
+
+				<h4 class="header center orange-text">LOGIN</h4>
+				<div class="row">
+					<div class="col s12 m12">
+						<div class="card">
+
+							<div class="card-content">
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="login" name="login" type="text" class="validate"> <label
+											for="login">Login</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="password" type="password" name="password" class="validate">
+										<label for="password">Senha</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<button type="submit" class="waves-effect waves-light btn">Entrar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+
+
+
+
+
+	<script type="text/javascript" th:src="@{/panel/js/materialize.min.js}"
+		src="js/materialize.min.js"></script>
+	<script type="text/javascript" th:src="@{/panel/js/main.js}"
+		src="js/main.js"></script>
+
+
+
+
+</body>
+</html>

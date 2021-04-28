@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto'
+	rel='stylesheet' type='text/css'>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet"
+	th:href="@{/panel/css/materialize.min.css}"
+	href="css/materialize.min.css" media="screen,projection" />
+
+
+
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Vestibular Agendado</title>
+</head>
+
+<body>
+	<nav class="deep-orange lighten-1">
+		<div class="nav-wrapper">
+			 <a
+				href="#" data-target="slide-out" class="sidenav-trigger"><i
+				class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a href="/painel/candidato/"><i
+						class="material-icons left">people</i>Candidatos</a></li>
+				<li><a href="/painel/"><i class="material-icons left">school</i>Redações
+						Pendentes</a></li>
+				<li><a href="/painel/prontas"><i
+						class="material-icons left">school</i>Redações Corrigidas</a></li>
+				<li><a href="/temas/"><i class="material-icons left">book</i>Tema</a></li>
+
+			</ul>
+		</div>
+		<ul id="slide-out" class="sidenav">
+			<li><a href="/painel/candidato/"><i
+					class="material-icons left">people</i>Candidatos</a></li>
+			<li><div class="divider"></div></li>
+			<li><a href="/painel/"><i class="material-icons left">school</i>Redações
+					Pendente</a></li>
+			<li><div class="divider"></div></li>
+			<li><a href="/painel/prontas"><i class="material-icons left">school</i>Redações
+					Corrigidas</a></li>
+			<li><div class="divider"></div></li>
+			<li><a href="/temas/"><i class="material-icons left">book</i>Temas</a></li>
+			<li><div class="divider"></div></li>
+
+		</ul>
+		<a href="#" data-target="slide-out" class="sidenav-trigger"><i
+			class="material-icons">menu</i></a>
+
+	</nav>
+	<div class="container-fluid">
+		<div class="section no-pad-bot" id="index-banner">
+			<h4 class="header center orange-text" id="nome">CADASTRO DE TEMA</h4>
+			<div class="row">
+				<div class="col s12 m12">
+					<div class="card">
+
+						<div class="card-content">
+
+
+
+
+
+							<form method="get" th:object="${tema}" th:action="@{save}">
+								<p>
+									<label for="descricao">Descrição</label> <input id="descricao"
+										th:field="*{descricao}" type="text" name="descricao">
+								</p>
+
+								
+								<p>
+									<label for="conteudo">Conteúdo</label>
+									<textarea th:field="*{conteudo}"  id="conteudo"
+										class="materialize-textarea" name="conteudo"></textarea>
+								</p>
+
+								<p>
+
+									<label><input th:field="*{atividade}" type="radio"
+										name="atividade" value="true" /> <span>Ativo</span></label>
+								</p>
+								<p>
+									<label> <input type="radio" th:field="*{atividade}"
+										name="atividade" value="false" /> <span>Inativo</span>
+									</label>
+								</p>
+								<br />
+								<button class="waves-effect waves-light btn">Salvar</button>
+
+							</form>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" th:src="@{/panel/js/materialize.min.js}"
+		src="js/materialize.min.js"></script>
+	<script type="text/javascript" th:src="@{/panel/js/table.min.js}"
+		src="js/table.min.js"></script>
+	<script type="text/javascript" th:src="@{/panel/js/main.js}"
+		src="js/main.js"></script>
+		<script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/classic/ckeditor.js"></script>
+	<script type="text/javascript">
+	ClassicEditor
+    .create( document.querySelector( '#conteudo' ) )
+    .catch( error => {
+        console.error( error );
+    } );
+	
+	</script>
+	
+
+
+
+</body>
+</html>

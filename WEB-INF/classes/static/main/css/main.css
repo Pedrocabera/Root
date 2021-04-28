@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Thin.woff2') format('woff2'),
+        url('../fonts/Gilroy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src: url('../fonts/Gilroy-RegularItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Black.woff2') format('woff2'),
+        url('../fonts/Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLight.woff2') format('woff2'),
+        url('../fonts/Gilroy-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#top{   
+        background-image: url("../img/background.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        padding: 100px 40px 0px 40px ;
+        
+}#content{
+    
+    background: #f3f3f3 ;
+   
+}#polos{
+    background-image: linear-gradient(to right,  #d26e2d,#ae2d0f );
+    padding: 30px;
+    text-align: center;
+    
+}#polos span{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 32px;
+    font-display: swap;
+    margin: 15px;
+}
+#content button{
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 22px;
+    color: #fff;
+    background-image: linear-gradient(to right,  #d26e2d,#ae2d0f );
+    border: none;
+    padding: 20px 40px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    margin-top: 60px;
+  
+}
+#content button span{
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+#content button:hover{
+    background-image: linear-gradient(to right,  #cbcbcb,#666 );
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+#chamada{
+    color:#00233D;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    font-size: 30px;
+    text-shadow: 10px 10px 10px #fff;
+    
+    
+}#main-lead span{
+    color:#b04802 ;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    font-size: 32px;
+}#main-lead{
+    margin-top: 50px;
+  
+    text-align: center;
+    padding: 0px 50px;
+}#icons span{
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    font-size: 28px;
+
+}#icons{
+    text-align: center;
+}#cursos button{
+    color: #fff;
+    padding: 20px   ;
+    background: #0e6bb1;
+    height: 160px;
+    width: 235px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+   
+}#polos{
+    text-align: center;
+}
+#locais span{
+    font-size: 28px;
+    color: #fff600;   
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+
+
+}#locais-inside {
+    margin-top:10%;
+}
+#botao-fim button span{
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+#botao-fim button:hover{
+    background-image: linear-gradient(to right,  #cbcbcb,#666 );
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}#botao-fim  button{
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 22px;
+    color: #B14A17;
+    background: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+.modal-full {
+    min-width: 40%;
+    margin: 0;
+}
+#botao-fim{
+    background:#B14A17;
+}
+.modal-full .modal-content {
+    min-height: 60vh;
+}.modal-body p{
+  text-align: justify;
+}#logos{
+	padding: 40px
+}#cursos-presencial button{
+    color: #fff;
+    padding: 20px   ;
+    background: #335535;
+    height: 160px;
+    width: 235px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+   
+}
